@@ -45,6 +45,7 @@ function drawChart() {
     hAxis: {
       textPosition: "none",
     },
+    fontName: "Open Sans",
     height: 250,
   };
 
