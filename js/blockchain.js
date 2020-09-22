@@ -42,7 +42,6 @@ function drawChart() {
       "Cantidad de transacciones por día en la blockchain de Bitcoin durante los últimos 30 días",
     curveType: "function",
     legend: { position: "bottom" },
-    fontName: 'Open Sans',
     hAxis: {
       textPosition: "none",
     },
