@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Dawipo - Data with Power</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google charts -->
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand"><a href="index.html"><img src="img/logo.png" alt="Logo" height="40"></a></h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link" data-toggle="modal" data-target="#modalInicio">¿Quiénes somos?</a>
+                    <a class="nav-link" href="problema.html">El problema</a>
+                    <a class="nav-link active" href="#">Nuestra tecnología</a>
+                </nav>
+            </div>
+        </header>
+        <div class="col-md-8 offset-md-2 mt-5">
+            <main role="main" class="inner cover">
+                <div class="jumbotron text-justify text-dark overflow-auto" style="max-height: 35em;">
+                    <h2 class="display-4">Nuestra tecnología</h2>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                                <a href="#whyBlockchain" class="nav-link active" data-toggle="pill" role="tab" >¿Por qué Blockchain?</a>
+                                <a href="#whyHyperledger" class="nav-link" data-toggle="pill" role="tab" >¿Por qué Hyperledger Fabric?</a>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="tab-content" id="blockchainTabs">
+                                <div class="tab-pane fade show active" id="whyBlockchain" role="tabpanel">
+                                    <p class="lead">Debido a la vital improtancia que la autenticidad y la verificabilidad cobran en lo que respecta a la información empresarial, se hizo evidente la necesidad de incorporar tecnologías que nos permitan garantizar a nuestros clientes que su información está segura, y que siempre es verificable.</p>
+                                    <hr>
+                                    <h4>Algunos beneficios de la tecnología blockchain:</h4>
+                                    <p><b>Nuestros clientes podrán obtener su historial completo de actividades en cualquier momento, no solo su estado actual. </b>En las bases de datos relacionales, como MySQL, Microsoft SQL Server o PostgreSQL, los usuarios solo pueden visualizar el estado actual de la información. Este no es el caso para las blockchains, en las que siempre se mantiene un registro de toda la información que ha existido.</p>
+                                    <p><b>No hay puntos vulnerables. </b>Debido a que las blockchain son descentralizadas, son muy seguras, al no existir puntos de acceso para hackers. Esto nos permite aliviar en gran parte las preocupaciones por ataques CSRF (Cross-Site Request Forgery) o XSS (Cross-Site Scripting).</p>
+                                    <p><b>No hay control centralizado. </b>Debido a su naturaleza, el sistema de registros de las blockchains se replica por compelto en diferentes lugares, lo que elimina la necesidad de un administrador central, así como de los costos e infraestructura que esto requeriría.</p>
+                                </div>
+                                <div class="tab-pane fade" id="whyHyperledger" role="tabpanel">
+                                    <p class="lead">Entre las diversas distribuciones que existen de Blockchain en la actualidad, escogimos Hyperledger Fabric como la que será utilizada en el desarrollo de Dawipo.</p>
+                                    <hr>
+                                    <h4>¿Por qué Hyperledger Fabric?</h4>
+                                    <p><b>Arquitectura modular. </b>Fabric ofrece una arquitectura modular en la que se pueden incluir plug-ins dependiendo de las necesidades que se tienen para su uso. Así, el desarrollo de las herramientas es más personalizable.</p>
+                                    <p><b>Roles y permisos. </b>Al construir aplicaciones para empresas, el uso de roles y permisos es vital para restringir la información que pueden o no ver los usuarios dependiendo de sus niveles de acceso dentro de la compañía. Fabric es un framework enfocado en permisos. Los participantes de la blockchain nunca son anónimos y siempre tienen una identidad que se valida frente al organigrama de la empresa.</p>
+                                    <p><b>Rendimiento y escalabilidad. </b>Al no existir un algoritmo <i>Proof of Work</i>, y tampoco una criptomoneda asociada, las transacciones en Fabric emulan el flujo de trabajo regular en las empresas.</p>
+                                    <p><b>Soporte accesible. </b>Al ser un consorcio compuesto por compañías líderes en el mercado, Hyperledger Fabric posee una de las comunidades de desarrollo más activas en la actualidad, y cuenta con una gran experiencia, tanto en el mercado de Blockchain como en el mercado empresarial en general.</p>
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>By Dawipo - Data with power.</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- Modal inicial -->
+    <div class="modal fade" id="modalInicio" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-secondary">
+                <div class="modal-header">
+                    <h5 class="modal-title">¿Quiénes somos?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- <div class="col-12 text-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0MXLHifKSLI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <hr> -->
+                    Creemos que la democratización de las herramientas que hacen de la información un insumo estratégico
+                    puede hacer que hasta las pequeñas empresas alcancen un nuevo nivel, por eso hemos creado Dawipo.
+                    ¡Conócenos!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
