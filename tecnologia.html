@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Dawipo - Data with Power</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google charts -->
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand ml-5"><a href="https://dawipo-project.github.io/"><img src="img/logo.png" alt="Logo" height="40"></a></h3>
+                <nav class="nav nav-masthead justify-content-center mr-5">
+                    <a class="nav-link" href="https://dawipo-project.github.io/">¿Quiénes somos?</a>
+                    <a class="nav-link" href="problema.html">El problema</a>
+                    <a class="nav-link" href="por-que-dawipo.html">La solución</a>
+                    <a class="nav-link active" href="#">Nuestra tecnología</a>
+                </nav>
+            </div>
+        </header>
+        <div class="col-md-10 offset-md-1 mt-5">
+            <main role="main" class="inner cover">
+                <div class="jumbotron text-justify text-dark overflow-auto pt-4 pb-4" style="height: 37em;">
+                    <h1 class="">Nuestra tecnología</h1>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3">
+                            <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                                <a href="#whyBlockchain" class="nav-link active" data-toggle="pill" role="tab" >¿Por qué Blockchain?</a>
+                                <a href="#whyHyperledger" class="nav-link" data-toggle="pill" role="tab" >¿Por qué usar Hyperledger Fabric?</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-9">
+                            <div class="tab-content" id="blockchainTabs">
+                                <div class="tab-pane fade show active m-0" id="whyBlockchain" role="tabpanel">
+                                    <p class="">Debido a la vital importancia que la autenticidad y la verificabilidad cobran en lo que respecta a la información empresarial, se hizo evidente la necesidad de incorporar tecnologías que nos permitan garantizar a nuestros clientes que su información está segura, y que siempre es verificable.</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-lg-4 ml-0 mr-0 h-100">
+                                            <h4>Algunos beneficios de la tecnología blockchain:</h4>
+                                            <p>Nuestros clientes podrán obtener su historial completo de actividades en cualquier momento, no solo su estado actual.</p>
+                                            <p>No hay puntos vulnerables.</p>
+                                            <p>No hay control centralizado.</p>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-8 h-100">
+                                            <div id="chart_div"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="whyHyperledger" role="tabpanel">
+                                    <p class="">Entre las diversas distribuciones que existen de Blockchain en la actualidad, sugerimos Hyperledger Fabric como la que será utilizada en el desarrollo de Dawipo.</p>
+                                    <hr>
+                                    <h4>¿Por qué usaremos Hyperledger Fabric?</h4>
+                                    <p><b>Arquitectura modular. </b></p>
+                                    <p><b>Roles y permisos. </b></p>
+                                    <p><b>Rendimiento y escalabilidad. </b></p>
+                                    <p><b>Soporte accesible. </b></p>
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>By Dawipo - Data with power.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/blockchain.js"></script>
+</body>
+</html>
