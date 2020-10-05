@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Dawipo - Blogs</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/startup-materialize.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar dark">
+        <div class="nav-wrapper">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <!-- <li><a href="team.html">Nosotros</a></li> -->
+                <!-- <li><a href="index.html#sectionPlanes">Ver Planes</a></li> -->
+            </ul>
+
+            <a href="#" data-target="slide-out" class="sidenav-trigger button-collapse right"><i
+                    class="material-icons black-text">menu</i></a>
+        </div>
+    </nav>
+    <ul id="slide-out" class="sidenav">
+        <li><a class="waves-effect waves-teal active" href="blog.html">Blog</a></li>
+        <li><a class="waves-effect waves-teal" href="team.html">Nosotros</a></li>
+        <li><a class="waves-effect waves-teal" href="index.html#planes">Ver Planes</a></li>
+    </ul>
+
+    <div class="title-transition section white valign-wrapper">
+        <div class="row valign">
+            <div class="col s8 offset-s2 m6 offset-m3 blog-title fade-transition">
+                <h1>Sobre Dawipo</h1>
+                <span class="date">September 26, 2020</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section white full-height">
+        <div class="row valign">
+            <div class="col s8 offset-s2 m6 offset-m3 blog-body">
+                <h4>Durante las primeras etapas del desarrollo de nuestra idea pudimos
+                    encontrar una serie de dolores que experimentan las Pymes con respecto a la organización y la
+                    gestión de su información en la <b>cadena de abastecimiento</b>, bien sea esta información de origen
+                    interno o externo.</h4>
+                <div id="chart_div" class="chart"></div>
+                <p>
+                    La principal consecuencia de esto es la generación de grandes barreras que impiden que los procesos
+                    sean óptimos y, eventualmente, conducen a pérdidas de ganancias y de competitividad.</p>
+                <div class="divider"></div>
+
+                <h4>La solución: Blockchain</h4>
+                <p>Debido a la vital importancia que la autenticidad y la verificabilidad cobran en lo que respecta a la
+                    información empresarial, se hizo evidente la necesidad de incorporar tecnologías que nos permitan manejar un elevado número de transacciones, así como 
+                    garantizar a nuestros clientes que su información está segura, y que siempre es verificable.</p>
+
+                <div id="bc_chart_div"></div>
+
+                <h5>Algunos beneficios de la tecnología Blockchain:</h5>
+                <ul class="collection">
+                    <li class="collection-item">
+                        <b>Nuestros clientes podrán obtener su historial completo de actividades en cualquier momento, no
+                            solo su estado actual.</b> A diferencia de las bases de datos relacionales, como MySQL, Oracle, SQL Server, etc., las estructuras de datos Blockchain almacenan un historial completo de todas las transacciones que suceden en ellas, el cual es verificable.
+                    </li>
+                    <li class="collection-item">
+                        <b>No hay puntos vulnerables.</b> Al no existir puntos de entrada, las preocupaciones por ataques CSRF (Cross-Site Request Forgery) o XSS (Cross-Site Scripting) es casi nula.
+                    </li>
+                    <li class="collection-item">
+                        <b>No hay control centralizado.</b> Las estructuras Blockchain eliminan la necesidad de un administrador debido a que se replican completamente en varios puntos, y con ello generan un gran ahorro al no existir los costos relacionados con la infraestructura dedicada a su administración.
+                    </li>
+                </ul>
+
+                <div class="divider"></div>
+
+                <h4>Hyperledger Fabric - Nuestra elección</h4>
+
+                <p>
+                    Entre las diversas distribuciones que existen de Blockchain en la actualidad, sugerimos Hyperledger
+                    Fabric como la que será utilizada en el desarrollo de Dawipo.
+                </p>
+                <h5>Algunos beneficios de Hyperledger Fabric</h5>
+                <ul class="collection">
+                    <li class="collection-item">
+                        <b>Arquitectura modular.</b> Hyperledger Fabric ha sido elaborado como un framework modular, lo cual permite un alto grado de confgurabilidad y lo hace muy personalizable.
+                    </li>
+                    <li class="collection-item">
+                        <b>Roles y permisos.</b> En las estructuras organizacionales, el acceso a la información debe ser restringido y permisionado dependiendo de los organigramas y los distintos niveles de acceso de los empleados.
+                    </li>
+                    <li class="collection-item">
+                        <b>Rendimiento y escalabilidad.</b> Al no existir un algoritmo <i>Proof of Work</i> o una criptomoneda asociada a la cadena de bloques de Hyperledger, el rendimiento se ve incrementado y el número de transacciones que la red puede procesar es mayor.
+                    </li>
+                    <li class="collection-item">
+                        <b>Soporte accesible.</b> Al ser una comunidad de código abierto, alimentada por gigantes de la informática, Hyperledger cuenta con una red de soporte muy activa y efectiva, por encima de otros ledgers Blockchain.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col s8 offset-s2 m6 offset-m3 blog-author">
+                <div class="divider"></div>
+
+                <div class="avatar-wrapper">
+                    <div class="avatar">
+                        <img src="http://placehold.it/128x128" alt="">
+                    </div>
+                </div>
+
+                <div class="author">
+                    <span>Autor</span>
+                    Felipe Hernández
+                </div>
+
+                <div class="date">
+                    <span>2020</span>
+                    September 26th
+                </div>
+
+                <div class="divider"></div>
+            </div>
+
+            <div class="col s8 offset-s2 m6 offset-m3 blog-related">
+                <h4>Artículos relacionados</h4>
+
+                <ul>
+                    <li>
+                        <a href="#!">
+                            <span class="avatar-wrapper">
+                                <span class="avatar">
+                                    <img src="http://placehold.it/128x128" alt="">
+                                </span>
+                            </span>
+                            <span class="title">El artículo más increíble</span>
+                            <span class="date">12 / 23 / 2020</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="avatar-wrapper">
+                                <span class="avatar">
+                                    <img src="http://placehold.it/128x128" alt="">
+                                </span>
+                            </span>
+                            <span class="title">La tecnología más interesante</span>
+                            <span class="date">10 / 4 / 2020</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="avatar-wrapper">
+                                <span class="avatar">
+                                    <img src="http://placehold.it/128x128" alt="">
+                                </span>
+                            </span>
+                            <span class="title">Una actualización rápida</span>
+                            <span class="date">8 / 14 / 2020</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <span class="avatar-wrapper">
+                                <span class="avatar">
+                                    <img src="http://placehold.it/128x128" alt="">
+                                </span>
+                            </span>
+                            <span class="title">¡Nuestro primer post!</span>
+                            <span class="date">6 / 9 / 2020</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <h5>Acerca de Dawipo</h5>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#planes">Ver Planes</a></li>
+                        <li><a href="#!">Nuestro Equipo</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4">
+                    <h5>Conéctate</h5>
+                    <ul>
+                        <li><a href="#!">Subscríbete</a></li>
+                        <li><a href="#!">Email</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><a href="#!">Twitter</a></li>
+                        <li><a href="#!">Facebook</a></li>
+                        <li><a href="#!">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+
+    <!-- External libraries -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Initialization script -->
+    <script src="js/startup.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
