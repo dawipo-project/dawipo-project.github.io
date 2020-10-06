@@ -29,8 +29,10 @@
         <div class="header-wrapper row valign-wrapper">
             <div class="col s8 offset-s2 valign">
                 <img src="images/dawipo-logo.png" alt="" class="center zoom">
-                <span class="tagline" id="tagline" style="color: black;">Creemos que la información también debe ser un insumo estratégico para que las PYMES alcancen un nuevo nivel. ¡Conócenos!</span>
-                <button class="read-more tooltipped" data-position="right" data-tooltip="¡Ver más!" id="botonFlecha" onclick="overflowFunction()"><i class="icon-caret-down"></i></button>
+                <span class="tagline" id="tagline" style="color: black;">Creemos que la información también debe ser un
+                    insumo estratégico para que las PYMES alcancen un nuevo nivel. ¡Conócenos!</span>
+                <button class="read-more tooltipped" data-position="right" data-tooltip="¡Ver más!" id="botonFlecha"
+                    onclick="overflowFunction()"><i class="icon-caret-down"></i></button>
             </div>
             <script>
                 function overflowFunction() {
@@ -60,11 +62,14 @@
                 </div>
                 <div class="col s12 m6 l4">
                     <h4><i class="material-icons como">fiber_manual_record</i></h4>
-                    <p class="caption">Brindamos herramientas tecnológicas que facilitan la administración de la cadena de suministro y mejoran su productividad.</p>
+                    <p class="caption">Brindamos herramientas tecnológicas que facilitan la administración de la cadena
+                        de suministro y mejoran su productividad.</p>
                 </div>
                 <div class="col s12 m6 l4">
                     <h4><i class="material-icons que">fiber_manual_record</i></h4>
-                    <p class="caption">Diseñamos una solución que integra los datos generados por los diferentes actores involucrados, así como otras variables externas que impactan directamente los objetivos de las organizaciones.</p>
+                    <p class="caption">Diseñamos una solución que integra los datos generados por los diferentes actores
+                        involucrados, así como otras variables externas que impactan directamente los objetivos de las
+                        organizaciones.</p>
                 </div>
             </div>
         </div>
@@ -100,18 +105,18 @@
                     <div class="device-triplet">
                         <div class="phone-preview-sizer iphone">
                             <div class="phone-preview"></div>
-                            <div class="image-container default"
-                                style="background-image:url(images/dashboard-1.png)"></div>
+                            <div class="image-container default" style="background-image:url(images/dashboard-1.png)">
+                            </div>
                         </div>
                         <div class="phone-preview-sizer iphone left-in-out">
                             <div class="phone-preview"></div>
-                            <div class="image-container default"
-                                style="background-image:url(images/dashboard-2.png)"></div>
+                            <div class="image-container default" style="background-image:url(images/dashboard-2.png)">
+                            </div>
                         </div>
                         <div class="phone-preview-sizer iphone right-in-out">
                             <div class="phone-preview"></div>
-                            <div class="image-container default"
-                                style="background-image:url(images/dashboard-3.png)"></div>
+                            <div class="image-container default" style="background-image:url(images/dashboard-3.png)">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -143,6 +148,8 @@
                 <form action="https://formspree.io/f/mgepvdpw" method="POST">
                     <div class="col s12">
                         <h2 class="section-title">Contáctanos</h2>
+                        <p>Creemos que la información también debe ser un insumo estratégico para que las PYMES alcancen
+                            un nuevo nivel. ¡Conócenos!</p>
                     </div>
                     <div class="input-field col s4">
                         <input id="first_name" type="text" name="first_name">
@@ -168,13 +175,67 @@
                         <input id="email" type="email" name="_replyto">
                         <label for="email">E-mail</label>
                     </div>
-                    <div class="input-field col s12">
-                        <textarea id="message" class="materialize-textarea" name="message"></textarea>
-                        <label for="message">Cuéntanos, ¿qué tipo de proceso podemos ayudarte a optimizar en la administración de tu cadena de abastecimiento?</label>
+                    <div class="col s12">
+                        <label for="message">¿Qué proceso podemos ayudarte a optimizar en la administración de tu cadena
+                            de abastecimiento?</label>
+                    </div>
+                    <div class="col s4">
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" name="enlace-seguimiento">
+                                <span>Enlace con proveedores para el seguimiento de pedidos</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" name="enlace-logistica">
+                                <span>Enlace con proveedores de logística (agentes de carga, aduanas, logística nacio
+                                    nal y distribución)</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col s4">
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" name="canales-venta">
+                                <span>Capturar información de canales de venta</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" name="planeacion-demanda">
+                                <span>Optimizar la planeación de la demanda</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col s4">
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" name="diagnostico">
+                                <span>Diagnósticos de la cadena de suministro</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox" class="filled-in" name="tercerizacion">
+                                <span>Tercerización de la cadena de suministro</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="col s12">
+                        <div class="input-field">
+                            <textarea name="otro" class="materialize-textarea" id="textareaOtro"></textarea>
+                            <label for="#textareaOtro">Otro</label>
+                        </div>
+                    </div>
+                    <div class="col s12">
                         <button class="waves-effect waves-light btn" type="submit">Enviar</button>
                     </div>
                 </form>
-                <button class="waves-effect waves-light btn" id="botonRegresar" style="margin-left: 12px; background-color: #fb9334;">Regresar arriba</button>
+                <div class="col s12">
+                    <button class="waves-effect waves-light btn-small" id="botonRegresar"
+                    style="margin-top: 12px; background-color: #fb9334;">Regresar arriba</button>
+                </div>
             </div>
         </div>
     </div>
@@ -182,32 +243,32 @@
     <!-- Footer -->
     <footer class="page-footer">
         <div class="container">
-          <div class="row">
-            <div class="col s12 m4">
-              <h5>Acerca de Dawipo</h5>
-              <ul>
-                <li><a href="#!">Blog</a></li>
-                <li><a href="index.html">Ver Planes</a></li>
-              </ul>
+            <div class="row">
+                <div class="col s12 m4">
+                    <h5>Acerca de Dawipo</h5>
+                    <ul>
+                        <li><a href="#!">Blog</a></li>
+                        <!-- <li><a href="index.html">Ver Planes</a></li> -->
+                    </ul>
+                </div>
+                <div class="col s12 m4">
+                    <h5>Conéctate</h5>
+                    <ul>
+                        <li><a href="#!">Subscríbete</a></li>
+                        <li><a href="#!">Email</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><a href="#!">Twitter</a></li>
+                        <li><a href="#!">Facebook</a></li>
+                        <li><a href="#!">Github</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col s12 m4">
-              <h5>Conéctate</h5>
-              <ul>
-                <li><a href="#!">Subscríbete</a></li>
-                <li><a href="#!">Email</a></li>
-              </ul>
-            </div>
-            <div class="col s12 m4">
-              <h5>Contacto</h5>
-              <ul>
-                <li><a href="#!">Twitter</a></li>
-                <li><a href="#!">Facebook</a></li>
-                <li><a href="#!">Github</a></li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </footer>
+    </footer>
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
