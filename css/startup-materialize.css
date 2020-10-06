@@ -11714,11 +11714,11 @@ nav.navbar.solid {
 }
 
 nav.navbar.solid.dark, nav.navbar.solid {
-  background-color: #ebd9c8;
+  background-color: #003f5a;
 }
 
 nav.navbar.solid.dark :not(.dropdown-content) > li > a, nav.navbar.solid :not(.dropdown-content) > li > a {
-  color: #333;
+  color: #FFF;
 }
 
 nav.navbar.solid.dark .brand-logo i, nav.navbar.solid .brand-logo i {
@@ -12351,7 +12351,8 @@ textarea.materialize-textarea + label {
     position: relative;
     padding: 64px 0;
     overflow: hidden;
-    background-color: #000;
+    background-color: #ebd9c8;
+    color: black;
     z-index: 3;
 }
 .chart {

@@ -29,12 +29,17 @@
         <div class="header-wrapper row valign-wrapper">
             <div class="col s8 offset-s2 valign">
                 <img src="images/dawipo-logo.png" alt="" class="center zoom">
-                <span class="tagline" id="tagline" style="color: black;">Creemos que la democratización de las
-                    herramientas que hacen de la información un insumo estratégico puede hacer que hasta las pequeñas
-                    empresas alcancen un nuevo nivel, por eso hemos creado Dawipo. Si quieres llevar tu empresa a otro
-                    nivel, ¡llámanos!</span>
-                <button class="read-more tooltipped" data-position="right" data-tooltip="¡Ver más!"><i class="icon-caret-down"></i></button>
+                <span class="tagline" id="tagline" style="color: black;">Creemos que la información también debe ser un insumo estratégico para que las PYMES alcancen un nuevo nivel. ¡Conócenos!</span>
+                <button class="read-more tooltipped" data-position="right" data-tooltip="¡Ver más!" id="botonFlecha" onclick="overflowFunction()"><i class="icon-caret-down"></i></button>
             </div>
+            <script>
+                function overflowFunction() {
+                    $('body').css('overflow', 'auto');
+                    var element = document.getElementById('botonFlecha');
+                    var instance = M.Tooltip.getInstance(element);
+                    instance.close();
+                }
+            </script>
         </div>
         <div class="laptop-preview-sizer">
             <div class="laptop-preview"></div>
@@ -134,8 +139,8 @@
     <!-- Contact Us -->
     <div class="section light valign-wrapper">
         <div class="container">
-            <form action="https://formspree.io/f/mgepvdpw" method="POST">
-                <div class="row">
+            <div class="row scrollspy" id="contactanos">
+                <form action="https://formspree.io/f/mgepvdpw" method="POST">
                     <div class="col s12">
                         <h2 class="section-title">Contáctanos</h2>
                     </div>
@@ -151,21 +156,26 @@
                         <input id="organization" type="text" name="organization">
                         <label for="organization">Organización</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s4">
                         <input id="position" type="text" name="position">
                         <label for="position">Cargo</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s4">
+                        <input id="phone" type="text" name="phone">
+                        <label for="phone">Número de teléfono</label>
+                    </div>
+                    <div class="input-field col s4">
                         <input id="email" type="email" name="_replyto">
                         <label for="email">E-mail</label>
                     </div>
                     <div class="input-field col s12">
                         <textarea id="message" class="materialize-textarea" name="message"></textarea>
                         <label for="message">Cuéntanos, ¿qué tipo de proceso podemos ayudarte a optimizar en la administración de tu cadena de abastecimiento?</label>
-                        <button class="waves-effect waves-light btn-large" type="submit">Enviar</a>
+                        <button class="waves-effect waves-light btn" type="submit">Enviar</button>
                     </div>
-                </div>
-            </form>
+                </form>
+                <button class="waves-effect waves-light btn" id="botonRegresar" style="margin-left: 12px; background-color: #fb9334;">Regresar arriba</button>
+            </div>
         </div>
     </div>
 

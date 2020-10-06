@@ -3,6 +3,17 @@
 
     M.AutoInit();
 
+    // Tooltip initialization
+    $('.tooltipped').tooltip();
+
+    var element = document.getElementById('botonFlecha');
+    var instance = M.Tooltip.getInstance(element);
+    instance.open();
+    
+    window.onscroll = function () {
+        instance.close();
+    };
+
     // Plugin initialization
     $('.dropdown-trigger').dropdown({coverTrigger: false, constrainWidth: false});
     $('.carousel.carousel-slider').carousel({fullWidth: true});
