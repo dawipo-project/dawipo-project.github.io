@@ -1,3 +1,9 @@
+// 'Carol García - Home Sentry',
+// 'Juan Miguel Caicedo - HS Colombia',
+// 'Claudia Rubio - Forto',
+// 'Carlos Eduardo Silva - Goby Filters',
+// 'Daniela Espinosa - Nahbu Travel',
+// 'Lina María Aristizábal - Aportapp',
 google.charts.load("current", { packages: ["bar"] });
 google.charts.setOnLoadCallback(drawChart);
 
@@ -6,9 +12,9 @@ function drawChart() {
     ["Proceso", "Carol García - Home Sentry", "Juan Miguel Caicedo - HS Colombia", 
     "Claudia Rubio - Forto", "Carlos Eduardo Silva - Goby Filters", "Daniela Espinosa - Nahbu Travel", 
     "Lina María Aristizábal - Aportapp", "Andrea Benavides - Centro Veterinario PRANA"],
-    ["Incrementar las ventas", 1, 0, 0, 0, 0, 0, 1],
+    ["Incrementar las ventas", 1, 0, 0, 1, 0, 1, 1],
     ["Administración de órdenes de compra", 0, 1, 0, 0, 0, 1, 0],
-    ["Programas de fidelización de clientes", 0, 0, 1, 1, 1, 1, 1],
+    ["Programas de fidelización de clientes", 0, 0, 1, 1, 1, 1, 0],
     ["Optimización de inventario", 1, 1, 0, 0, 0, 1, 1],
     ["Generación de alertas en cadena de suministro", 0, 1, 0, 0, 1, 1, 0],
   ]);
@@ -34,4 +40,5 @@ function drawChart() {
     }
   };
 }
+
 
