@@ -14,7 +14,7 @@ function drawChart() {
     "Lina María Aristizábal - Aportapp", "Andrea Benavides - Centro Veterinario PRANA"],
     ["Incrementar las ventas", 1, 0, 0, 1, 0, 1, 1],
     ["Administración de órdenes de compra", 0, 1, 0, 0, 0, 1, 0],
-    ["Programas de fidelización de clientes", 0, 0, 1, 1, 1, 1, 0],
+    ["Programas de fidelización de clientes", 0, 0, 1, 1, 1, 1, 1],
     ["Optimización de inventario", 1, 1, 0, 0, 0, 1, 1],
     ["Generación de alertas en cadena de suministro", 0, 1, 0, 0, 1, 1, 0],
   ]);
