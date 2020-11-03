@@ -3900,11 +3900,11 @@ input[type="button"].btn-block {
     color: #fff; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 0.75); }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75); }
+    color: #fff; }
   .navbar-dark .navbar-nav .nav-link.disabled {
-    color: rgba(255, 255, 255, 0.25); }
+    color: rgba(255, 255, 255, 0.5); }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -10811,8 +10811,8 @@ input[data-switch="dark"]:checked + label {
   padding: 80px 0 120px 0; }
   .hero-section:after {
     content: ' ';
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#b0b5b8), to(#475f6b));
-    background-image: linear-gradient(to bottom, #b0b5b8, #475f6b);
+    background-image: url(../images/bg-top.jpg);
+    filter: grayscale(75%) brightness(50%);
     position: absolute;
     top: -400px;
     right: 0;
