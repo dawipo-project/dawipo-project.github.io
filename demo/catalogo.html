@@ -332,6 +332,11 @@
                                         <p class="card-text">
                                             Esta es usa mochila básica. Rellena el resto con su descripción.
                                         </p>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" name="Cantidad" id="cantidad" class="form-control form-control-sm" placeholder="Cantidad">
+                                            </div>
+                                        </form>
                                     </div>
                                     <div class="card-footer">
                                         <button class="btn btn-primary btn-block">Agregar a pedido</button>
@@ -347,6 +352,11 @@
                                         <p class="card-text">
                                             Esta es usa cartera café básica. Rellena el resto con su descripción.
                                         </p>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" name="Cantidad" id="cantidad" class="form-control form-control-sm" placeholder="Cantidad">
+                                            </div>
+                                        </form>
                                     </div>
                                     <div class="card-footer">
                                         <button class="btn btn-primary btn-block">Agregar a pedido</button>
@@ -370,6 +380,54 @@
                             </div>
 
                         </div>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="jumbotron">
+                        <h3 class="text-comfortaa">Contenido de la orden actual</h3>
+                        <hr>
+                        <table class="table table-responsive table-hover table-nowrap">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Producto</th>
+                                    <th scope="col">Cantidad</th>
+                                    <th scope="col">Precio Unitario</th>
+                                    <th scope="col">Precio Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cartera negra básica</td>
+                                    <td>25</td>
+                                    <td>US$40,00</td>
+                                    <td>US$1.000,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Cartera café básica</td>
+                                    <td>25</td>
+                                    <td>US$40,00</td>
+                                    <td>US$1.000,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Billetera básica</td>
+                                    <td>25</td>
+                                    <td>US$40,00</td>
+                                    <td>US$1.000,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Mochila básica</td>
+                                    <td>25</td>
+                                    <td>US$40,00</td>
+                                    <td>US$1.000,00</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3">Total</th>
+                                    <td>US$4000,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <button class="btn btn-lg btn-secondary">Generar cotización</button>
                     </div>
                 </div>
                 <footer class="footer">
