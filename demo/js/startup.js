@@ -279,13 +279,7 @@
             }
           };
           var toggleSolidFixed = function (e) {
-            if (e.scrollDirection === "FORWARD") {
-              navbar.removeClass("absolute");
-              navbar.addClass("solid");
-            } else {
-              navbar.addClass("absolute");
-              navbar.removeClass("solid");
-            }
+            return;
           };
 
           // Only initialize if past responsive threshold
