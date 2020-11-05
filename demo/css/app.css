@@ -10812,7 +10812,7 @@ input[data-switch="dark"]:checked + label {
   .hero-section:after {
     content: ' ';
     background-image: url(../images/bg-top.jpg);
-    filter: grayscale(75%) brightness(50%);
+    filter: grayscale(100%) brightness(100%);
     position: absolute;
     top: -400px;
     right: 0;
@@ -14377,4 +14377,13 @@ body[data-leftbar-theme="dark"] .side-nav .side-nav-forth-level li.active > a {
   
 .text-comfortaa {
     font-family: 'Comfortaa', cursive;
+}
+.text-green {
+  color: #007a7b !important;
+}
+.text-blue {
+  color: #043a5c!important;
+}
+.text-orange {
+  color: #fe6937!important;
 }
