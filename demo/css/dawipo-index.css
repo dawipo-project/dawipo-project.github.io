@@ -9198,7 +9198,7 @@ input[type=range]::-ms-thumb {
 .tablet-preview-sizer .image-container.default,
 .phone-preview-sizer .image-container.default {
   opacity: 1;
-  background-color: #444;
+  background-color: transparent;
   z-index: 0;
 }
 
@@ -9431,7 +9431,7 @@ input[type=range]::-ms-thumb {
 }
 
 .phone-preview-sizer .phone-preview {
-
+  background-color: transparent;
 }
 
 .phone-preview-sizer .image-container {
