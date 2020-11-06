@@ -5,7 +5,7 @@
  * Personal Use License
  * by Alan Chang
  */
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Lato:ital@0;1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -2167,6 +2167,7 @@ html {
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 /**
@@ -4311,7 +4312,7 @@ nav .brand-logo {
   color: #fff;
   display: inline-block;
   font-size: 2.1rem;
-  padding-top: 0.2em;
+  padding-top: 0.1em;
 }
 
 nav .brand-logo.center {
@@ -4450,11 +4451,11 @@ nav .input-field label.active i {
     min-height: 64px;
   }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 64px;
-    line-height: 64px;
+    height: 100px;
+    line-height: 100px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 80px;
   }
 }
 
@@ -11558,7 +11559,7 @@ h5 {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.8rem;
   color: rgba(255, 255, 255, 0.8);
@@ -11566,6 +11567,7 @@ p {
 
 p.caption {
   color: inherit;
+  font-family: 'Lato', sans-serif;
 }
 
 .feature {
@@ -11798,7 +11800,7 @@ nav.navbar ul a:hover {
   display: block;
   color: #fff;
   font-size: 1.5rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .header .header-wrapper .read-more {
@@ -11953,7 +11955,7 @@ nav.navbar ul a:hover {
 
 .section .caption {
   font-size: 1.4rem;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .section .col {
@@ -11997,7 +11999,7 @@ nav.navbar ul a:hover {
 .btn-floating:hover {
   box-shadow: none;
   background-color: #eee;
-  color: #444;
+  color: #fff;
 }
 
 .btn:hover::before, .btn-large:hover::before, .btn-small:hover::before,
@@ -12318,11 +12320,20 @@ textarea.materialize-textarea + label {
 .bg-dark-blue {
   background-color: #043a5c!important;
 }
+button.bg-dark-blue:hover {
+  background-color: #076aa8!important;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
 .text-bright-blue {
   color: #007a7b!important;
 }
 .bg-bright-blue {
   background-color: #007a7b!important;
+}
+button.bg-bright-blue:hover {
+  background-color: #00c7c7!important;
+  color: #fff;
 }
 .text-orange {
   color: #fe6937!important;
